@@ -2,6 +2,7 @@
 ## GitHub Actions and ansible-lint
 
 ### Author
+Russell Zachary Feeser
 @RZFeeser
 
 ### Overview
@@ -12,3 +13,4 @@ The purpose of this repository is to provide an working example and template for
 - Linting on PR
   - Only lints what is in playbooks/ by following .ansible-lint
 - Execution on WorkFlow Dispatch
+
