@@ -10,9 +10,14 @@ The purpose of this repository is to provide an working example and template for
 
 ### Materials and Methods
 - GitHub Actions
+- Exploration of `ansible-lint`
 - Linting on Pull Requests (PR)
   - Only lints what is in playbooks/ by following `.ansible-lint`
 - Execution on WorkFlow Dispatch to run `ansible-playbook`
+
+## Resources
+- [GitHub - ansible-lint](https://github.com/ansible/ansible-lint)
+- [Documentation - ansible-lint](https://ansible.readthedocs.io/projects/lint/)
 
 ### Summary
 **Ansible Lint** is a command-line tool for linting playbooks, roles and collections. Linting is to check code for syntax errors and bad practices. 
