@@ -1,0 +1,8 @@
+---
+# .ansible-lint
+
+exclude_paths:
+  - .github/
+  - hosts
+  - README.md
+  - .ansible-lint
