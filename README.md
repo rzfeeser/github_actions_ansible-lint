@@ -23,4 +23,7 @@ When Ansible Lint finds a potential problem in your code, it will emit a warning
 
 With GitHub Actions it is possible to run `ansible-lint` "automatically". Although this could be configured in a number of ways, this project uses a "Pull Request" as the oppertunity to run `ansible-lint`. The pass / fail nature of the tool makes it possible to determine if the proposed code is following best practices and therefore help make a determination if the code is suitable for acceptance.
 
-A second action makes it possible to run playbooks with `ansible-playbook`. To trigger the playbook `playbooks/playbook.yml`, click on **Actions** > then along the left click on **Github runs ansible-playbook** > and finally near the right click on **run workflow**
+A second action makes it possible to run playbooks with `ansible-playbook`. To trigger the playbook `playbooks/playbook.yml`
+- Click on **Actions**
+- Along the left click on **Github runs ansible-playbook**
+- Finally near the right click on **run workflow**
