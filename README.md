@@ -1,10 +1,6 @@
 # GitHub Actions and ansible-lint
 ## rzfeeser/github_actions_ansible-lint
 
-### Author
-Russell Zachary Feeser  
-@RZFeeser
-
 ### Purpose
 The purpose of this repository is to provide an working example and template for using GitHub Actions in conjunction with `ansible-lint` and `ansible-playbook` for the purpose of automating the linting and running of Ansible code.
 
@@ -33,3 +29,8 @@ A second action makes it possible to run playbooks with `ansible-playbook`. To t
 - Click on **Actions**
 - Along the left click on **Github runs ansible-playbook**
 - Finally near the right click on **run workflow**
+
+### Repository Author
+Russell Zachary Feeser || @RZFeeser  
+https://rzfeeser.com  
+https://iris7.com
