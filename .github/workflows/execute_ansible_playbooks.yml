@@ -1,0 +1,12 @@
+name: GitHub runs ansible-playbook
+on: [workflow_dispatch]   # this is a button press
+jobs:
+  RunAnsible:
+    runs-on: ubuntu-latest    # this has ansible pre-installed
+    steps:
+      - name: Checkout code (clone into our container)
+        uses: actions/checkout@v4
+      - name: Run the playbook
+        shell: bash
+        run: |
+          ansible-playbook playbooks/playbook.yml -i hosts
