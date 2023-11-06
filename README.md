@@ -1,5 +1,5 @@
-# 
-## GitHub Actions and ansible-lint
+# GitHub Actions and ansible-lint
+## rzfeeser/github_actions_ansible-lint
 
 ### Author
 Russell Zachary Feeser  
@@ -17,6 +17,7 @@ The purpose of this repository is to provide an working example and template for
 
 ## Resources
 - [GitHub - ansible-lint](https://github.com/ansible/ansible-lint)
+- [GitHub Actions - ansible-lint](https://github.com/marketplace/actions/run-ansible-lint)
 - [Documentation - ansible-lint](https://ansible.readthedocs.io/projects/lint/)
 
 ### Summary
