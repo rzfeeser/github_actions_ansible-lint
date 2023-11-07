@@ -1,10 +1,10 @@
 ---
-- name: MONDAY MORning review    # metadata
+- name: Monday morning review    # metadata
   connection: local              # use this plugin
   hosts: ansibleController
   gather_facts: false
 
-  tasks:    
+  tasks:
 
     - name: Http lookup to rzfeeser.com   # metadata
       ansible.builtin.uri:                # call to a python script named uri.py
