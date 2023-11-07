@@ -5,7 +5,7 @@
   gather_facts: false
 
   tasks:
-
+      # sends an HTTP GET to a target URI
       - name:  Http lookup to rzfeeser.com
         ansible.builtin.uri:
           url: https://rzfeeser.com
