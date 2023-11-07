@@ -6,10 +6,10 @@
 
   tasks:
 
-    - name: Http lookup to rzfeeser.com
-      ansible.builtin.uri:
-        url: https://rzfeeser.com
-      register: results
+      - name:  Http lookup to rzfeeser.com
+        ansible.builtin.uri:
+          url: https://rzfeeser.com
+        register: results
 
     - name: Display results
       ansible.builtin.debug:
