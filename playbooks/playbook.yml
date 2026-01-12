@@ -30,4 +30,4 @@
 
     - name: Display results
       ansible.builtin.debug:
-          msg: "hello hello!"
+        msg: "hello hello!"
