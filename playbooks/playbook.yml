@@ -7,7 +7,7 @@
   tasks:
 
     - name: Http lookup to rzfeeser.com   # metadata
-      ansible.builtin.uri:                # call to a python script named uri.py
+      uri:                # call to a python script named uri.py
         url: https://rzfeeser.com
       register: results
 
