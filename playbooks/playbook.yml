@@ -27,3 +27,7 @@
     - name: Display results
       ansible.builtin.debug:
         msg: "hello zach and students!"
+
+    - name: FIXED SOME BUG
+      debug:
+        msg: "this is not best practice"
