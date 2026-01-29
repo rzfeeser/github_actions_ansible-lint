@@ -29,5 +29,5 @@
         msg: "hello zach and students!"
 
     - name: FIXED SOME BUG
-      debug:
+      ansible.builtin.debug:
         msg: "this is not best practice"
