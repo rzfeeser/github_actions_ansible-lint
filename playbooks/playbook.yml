@@ -2,7 +2,7 @@
 - name: Monday morning review    # metadata
   connection: local              # use this plugin
   hosts: ansibleController
-  gather_facts: False   
+  gather_facts: false
 
   tasks:
 
