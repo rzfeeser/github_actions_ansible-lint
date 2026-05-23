@@ -27,3 +27,7 @@
     - name: Display results
       ansible.builtin.debug:
         msg: "hello zach and students!"
+
+    - name: display results
+      debug:
+        msg: "hello zach and students!"
